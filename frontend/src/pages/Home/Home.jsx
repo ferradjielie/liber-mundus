@@ -43,6 +43,13 @@ function Home() {
             </div>
 
         </section>
+       
+
+        <section class="explorerSection">
+            <h2>Découvrez le patrimoine littéraire</h2>
+            <p>Petit texte descriptif</p>
+            <button>Voir tous les pays</button>
+      </section>
       </main>
     </>
   );

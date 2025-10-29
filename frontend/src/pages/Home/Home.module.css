@@ -34,10 +34,15 @@ header {
   align-items: center;
   text-align: center;
   max-width: 250px;
-  border : solid black 1px;
+border: 1px solid #b0c4de;
+  padding: 10px;
   border-radius: 13px;
-  background-color: rgb(243, 243, 243);
-  padding: 20px;
+  background-color: #e8f6ff;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: white;
 }
 
 .icon {
@@ -57,4 +62,12 @@ header {
   font-weight: 500;
 
   color: #060606;
+}
+
+.flagSection h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: roboto ;
+  color : #2f4858
+
 }
