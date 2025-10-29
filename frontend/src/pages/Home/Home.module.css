@@ -16,7 +16,7 @@ header {
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
-  color: #2f4858;;
+  color: #2f4858;
 }
 
 .cards {
@@ -74,13 +74,20 @@ border: 1px solid #b0c4de;
 
 
 .explorerSection {
+  margin-top: 30px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
- align-items: center;
+  align-items: center;
+  font-family: roboto ;
   padding: 3rem 1rem;
-  background-color: #f5f9fc;
-  border-top: 1px solid #ccc;
+  
+  text-align: center; 
 }
+.explorerSection h2 {
+  color : #2f4858;
+}
+
 
 .citation {
   font-style: italic;

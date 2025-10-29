@@ -48,6 +48,8 @@ function Home() {
           </div>
         </section>
 
+        <hr />
+
         {/* === Section Explorer === */}
         <section className={styles.explorerSection}>
           <h2>Découvrez le patrimoine littéraire des pays disponibles</h2>
