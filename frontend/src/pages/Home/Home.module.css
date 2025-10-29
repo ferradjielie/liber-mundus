@@ -71,3 +71,49 @@ border: 1px solid #b0c4de;
   color : #2f4858
 
 }
+
+
+.explorerSection {
+  display: flex;
+  justify-content: center;
+ align-items: center;
+  padding: 3rem 1rem;
+  background-color: #f5f9fc;
+  border-top: 1px solid #ccc;
+}
+
+.citation {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #2f4858;
+  margin: 1.5rem 0;
+}
+
+.citation span {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.description {
+  color: #333;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+
+button {
+  background-color: #2f4858;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3d5a6a;
+}
