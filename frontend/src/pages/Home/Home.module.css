@@ -3,20 +3,58 @@
 
 header {
     padding: 50px;
-    background-color: #2f4858;
+    background-color: white;
 }
 
 .headerContent h1 {
     text-align: center;
     font-family: Roboto;
-    color: white;
+    color: #2f4858;;
 }
 
-.headerContent .slogan {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 1.5em;
-    color: white;
+.slogan {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  color: #2f4858;;
 }
 
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  border : solid black 1px;
+  border-radius: 13px;
+  background-color: rgb(243, 243, 243);
+  padding: 20px;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 1rem;
+  
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.card span {
+  font-size: 1.1rem;
+  font-weight: 500;
+
+  color: #060606;
+}
