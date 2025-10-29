@@ -34,6 +34,15 @@ function Home() {
             <span>Chaque livre est unique, chaque page est une aventure</span>
           </div>
         </div>
+
+        <section className={styles.flagSection}>
+            <h2>Explorez le monde de la littérature a travers divers pays !</h2>
+            <div className={styles.friseContainer}>
+
+                
+            </div>
+
+        </section>
       </main>
     </>
   );
