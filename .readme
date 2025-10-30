@@ -1,0 +1,94 @@
+Liber Mundus est une application web qui permet de découvrir le patrimoine littéraire des différents pays du monde.
+Chaque pays met en avant ses auteurs emblématiques, ses œuvres marquantes et sa culture littéraire unique.
+
+Le projet est divisé en deux parties :
+
+Frontend : React + CSS Modules
+
+Backend : Node.js + Express + MySQL
+
+🧩 Technologies utilisées
+🖥️ Frontend
+
+React
+
+Vite
+
+CSS Modules
+
+React Fast Marquee (pour la frise des drapeaux)
+
+Lordicon (icônes animées)
+
+⚙️ Backend
+
+Node.js
+
+Express
+
+MySQL
+
+dotenv
+
+nodemon (pour le développement)
+
+🚀 Lancer le projet
+1️⃣ Cloner le dépôt
+git clone https://github.com/ton-compte/liber-mundus.git
+cd liber-mundus
+
+2️⃣ Installer les dépendances
+Frontend :
+cd frontend
+npm install
+
+Backend :
+cd ../backend
+npm install
+
+3️⃣ Configurer les variables d’environnement
+
+Crée un fichier .env dans le dossier backend :
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=ton_mot_de_passe
+DB_NAME=liber_mundus
+PORT=5000
+
+4️⃣ Lancer le projet
+Backend :
+npm run dev
+
+Frontend :
+npm run dev
+
+🧠 Structure du projet
+liber-mundus/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.jsx
+│   └── package.json
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   ├── server.js
+│   ├── .env
+│   └── package.json
+│
+└── README.md
+
+❤️ Remerciements
+
+Lordicon
+ pour les icônes animées
+
+React Fast Marquee
+ pour l’animation fluide des drapeaux
