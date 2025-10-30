@@ -1,0 +1,33 @@
+.footer {
+  background-color: #2f4858;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-family: Roboto, sans-serif;
+}
+
+.footer a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #ffcc00; /* petit effet hover pour contraste */
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.copy, .credit {
+  font-size: 0.9rem;
+}

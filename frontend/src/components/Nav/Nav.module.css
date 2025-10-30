@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between; /* espace entre logo et liens */
+    align-items: center; /* aligne verticalement */
+    background-color: #2f4858;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.logo {
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.navLink {
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.navLink li {
+    margin-right: 15px;
+    color : white;
+    font-size: 1.1rem;
+    font-family: roboto;
+    font-weight: 500;
+    list-style: none;
+}
+
