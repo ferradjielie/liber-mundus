@@ -37,7 +37,7 @@ function Home() {
           </div>
         </div>
 
-        {/* === Section drapeaux === */}
+       
         <section className={styles.flagSection}>
           <h2>Explorez le monde de la littérature à travers divers pays !</h2>
 
@@ -50,7 +50,7 @@ function Home() {
 
         <hr />
 
-        {/* === Section Explorer === */}
+       
         <section className={styles.explorerSection}>
           <h2>Découvrez le patrimoine littéraire des pays disponibles</h2>
 
