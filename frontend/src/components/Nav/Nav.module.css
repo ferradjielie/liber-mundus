@@ -1,32 +1,41 @@
 nav {
     display: flex;
-    justify-content: space-between; /* espace entre logo et liens */
-    align-items: center; /* aligne verticalement */
+    justify-content: space-between; 
+    align-items: center; 
     background-color: #2f4858;
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
 }
 
-
 .logo {
     color: white;
     font-family: roboto;
     font-weight: 600;
     font-size: 1.2rem;
+    text-decoration: none; 
 }
+
 .navLink {
     display: flex;
     justify-content: flex-end;
-    
-    
+    padding: 0;
+    margin: 0;
 }
+
 .navLink li {
     margin-right: 15px;
-    color : white;
-    font-size: 1.1rem;
-    font-family: roboto;
-    font-weight: 500;
     list-style: none;
 }
 
+.navLink li a {
+    color: white;
+    font-size: 1.1rem;
+    font-family: roboto;
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+.navLink li a:hover {
+    text-decoration: underline; 
+}
