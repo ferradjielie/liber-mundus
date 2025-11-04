@@ -4,6 +4,7 @@ import book from '../../assets/bookicone.svg';
 import hearth from '../../assets/hearth.svg';
 import Marquee from 'react-fast-marquee';
 import BorderStrip from '../../components/BorderStrip/BorderStrip';
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -64,7 +65,10 @@ function Home() {
             et laissez les mots vous guider à travers le monde.
           </p>
 
-          <button className={styles.exploreButton}>Voir tous les pays</button>
+         <Link to="/liste-des-pays" className={styles.exploreButton}>
+                  Voir tous les pays
+        </Link>
+
         </section>
       </main>
     </>

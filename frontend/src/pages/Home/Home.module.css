@@ -111,7 +111,7 @@ header {
   margin: 0 auto 1.5rem;
 }
 
-button {
+.exploreButton {
   background-color: #2f4858;
   color: white;
   padding: 0.7rem 1.5rem;
@@ -122,6 +122,6 @@ button {
   transition: 0.3s;
 }
 
-button:hover {
+.exploreButton:hover {
   background-color: #3d5a6a;
 }
