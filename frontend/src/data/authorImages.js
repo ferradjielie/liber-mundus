@@ -1,25 +1,14 @@
-import VictoHugo from '../../assets/VictoHugo.jpg';
-import JulesVerne from '../../assets/JulesVerne.jpg';
-import GeorgesOrwell from '../../assets/GeorgesOrwell.jpg';
-import AldousHuxley from '../../assets/AldousHuxley.jpg';
-import Pushkin from '../../assets/Pushkin.jpg';
-import FiodorDostoveiski from '../../assets/FiodorDostoveiski.jpg';
-import LeonTolstoi from '../../assets/LeonTolstoi.jpg';
-import Shakespeare from '../../assets/Shakespeare.jpg';
-
-
 const authorImages = {
-  "VictorHugo": VictoHugo,
-  "JulesVerne": JulesVerne,
-  "GeorgesOrwell": GeorgesOrwell,
-  "AldousHuxley": AldousHuxley,
-  "Pushkin": Pushkin,
-  "FiodorDostoveiski": FiodorDostoveiski,
-  "LeonTolstoi": LeonTolstoi,
-  "Shakespeare": Shakespeare
+  "Victor Hugo": "/images/authors/VictorHugo.jpg",
+  "Jules Verne": "/images/authors/JulesVerne.jpg",
+  "George Orwell": "/images/authors/GeorgeOrwell.jpg",
+  "Aldous Huxley": "/images/authors/AldousHuxley.jpg",
+  "Alexandre Pouchkine": "/images/authors/AlexandrePouchkine.jpg",
+  "Fiodor Dostoïevski": "/images/authors/FiodorDostoveski.jpg",
+  "Leon Tolstoi": "/images/authors/LeonTolstoi.jpg",
+  "William Shakespeare": "/images/authors/Shakespeare.jpg",
+  "Ernest Hemingway": "/images/authors/ErnestHemingway.jpg"
+  
 };
-
-
-
 
 export default authorImages;
