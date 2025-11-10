@@ -79,6 +79,9 @@ function AuthorsList() {
                   className={styles.authorImage} 
                 />
                 <h3 className={styles.authorName}>{key}</h3>
+                 <button className={styles.authorButton}>
+                      Découvrir l'auteur
+                </button>
               </div>
             );
           })}

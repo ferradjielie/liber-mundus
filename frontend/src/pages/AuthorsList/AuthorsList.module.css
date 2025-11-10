@@ -27,6 +27,8 @@
     color: white;
 }
 
+
+
 .authorImage {
   width: 100%;
   height: 240px; 
@@ -43,4 +45,23 @@
   font-size: 1rem;
   margin-bottom: 10px; 
   order: -1; /* met le nom en haut de la card */
+}
+
+
+.authorButton {
+  margin-top: auto; /* pousse le bouton en bas si nécessaire */
+  padding: 0.5rem 1rem;
+  background-color: #2f4858;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-size: 0.9rem;
+}
+
+.authorButton:hover {
+  background-color: #1e2d35;
+  border: solid white 1px;
+  transform: translateY(-2px);
 }
