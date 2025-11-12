@@ -1,6 +1,6 @@
 import styles from './AuthorsList.module.css';
 import { useState, useEffect } from 'react';
-import { useParams } from "react-router-dom";
+import { useParams , Link} from "react-router-dom";
 
 // Mapping des exceptions : fichiers avec seulement le nom ou extension différente
 const authorExtensions = {
@@ -72,22 +72,25 @@ function AuthorsList() {
             const key = `${author.prenom} ${author.nom}`;
 
             return (
-              <div className={styles.card} key={author.id_auteur}>
-                <img 
-                  src={imagePath} 
-                  alt={key} 
-                  className={styles.authorImage} 
-                />
-                <h3 className={styles.authorName}>{key}</h3>
-                 <button className={styles.authorButton}>
-                      Découvrir l'auteur
-                </button>
-              </div>
-            );
-          })}
+        <div className={styles.card} key={author.id_auteur}>
+          <img 
+              src={imagePath} 
+              alt={key} 
+              className={styles.authorImage} 
+          />
+          <h3 className={styles.authorName}>{key}</h3>
+          <Link 
+                to={`/authors/${author.id_auteur}`} 
+                className={styles.authorButton}
+          >
+            Découvrir l'auteur
+          </Link>
         </div>
-      )}
-    </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
   );
 }
 
