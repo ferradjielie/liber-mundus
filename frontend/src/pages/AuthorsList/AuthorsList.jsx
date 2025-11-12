@@ -80,10 +80,10 @@ function AuthorsList() {
           />
           <h3 className={styles.authorName}>{key}</h3>
           <Link 
-                to={`/authors/${author.id_auteur}`} 
+                to={`/pays/${author.id_auteur}/detail-auteur`} 
                 className={styles.authorButton}
           >
-            Découvrir l'auteur
+                 Découvrir l'auteur
           </Link>
         </div>
                     );
