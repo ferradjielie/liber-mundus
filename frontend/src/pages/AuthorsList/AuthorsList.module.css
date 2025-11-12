@@ -49,7 +49,7 @@
 
 
 .authorButton {
-  margin-top: auto; /* pousse le bouton en bas si nécessaire */
+  margin-top: auto; 
   padding: 0.5rem 1rem;
   background-color: #2f4858;
   color: white;
